@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 125pc;
+    background-position: center;
+    z-index: -1 
+} 
+
+
+header {
+    margin-left: -290px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 24px 130px;
+    justify-content: space-between;
+    background: linear-gradient(45deg, transparent, transparent);
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.airline {
+    margin-top: -21px;
+    margin-left: -1020px;
+    font-size: 30px;    
+    color: white;
+}
+
+.desktopmenu {
+    width: 104px;
+    border-radius: 7px;
+    color: black;
+    background: azure;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin-right: -209px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 503px;
+}
+
+.avion {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -306px;
+    margin-right: -271px;
+    width: -webkit-fill-available;
+}
+
+.imgavion {
+    width: 100%;
+    height: 597px;
+    margin-top: -27px;
+    margin-left: 321px;
+}
+
+ul {
+    margin-left: 31px
+}
+
+
+.Ru {
+    list-style: none;
+    color: cadetblue;
+    margin-left: -17px;
+    font-weight: bold;
+}
+
+
+.Ale {
+    list-style: none;
+    color: cadetblue;
+    margin-left: -17px;
+    font-weight: bold;
+}
+
+
+.Fra {
+    list-style: none;
+    color: cadetblue;
+    margin-left: -17px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    font-size: medium;
+    color: white;
+    display: flex;
+    padding: 3px;
+    margin-left: -189px;
+    cursor: pointer;
+}
+
+.Ab {
+    margin-left: 5px;
+}
+
+.des {
+    margin-left: 5px;
+}
+
+.e {
+    margin-top:  -20px;
+    margin-left: 2px;
+}
+
+.co {
+    margin-left: 5px;
+}
+
+
+.arriba {
+    margin-top: -13px;
+    margin-left: -7px;
+}
+
+.box {
+    position: relative;
+    margin-top: -1619px;
+    margin-left: 212px;
+    color: white;
+}
+
+.vist {
+    font-size: 23px;
+    margin-left: -187px;
+    margin-right: -71px;
+
+}
+
+.p {
+   position: absolute;
+   margin-left: 36px;
+}
+
+
+.p1 {
+    width: 340px;
+    margin-left: -220px;
+}
+
+
+.bottom {
+    margin-top: 50px;
+    margin-left: -100px;
+    position: relative;
+}
+
+
+.bottom1 {
+    height: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    align-items: center;
+    letter-spacing: -0.022em;
+    border-radius: 30px;
+    background: red;
+    padding: 6px 53px;
+    text-decoration: none;
+    margin-left: -87px;
+}
+
+
+.off {
+    background: 40px;
+    color: white;
+}
+
+
+.offers :nth-child(1) {
+    display: flex;
+    margin-left: -131px;
+    margin-right: 103px;
+    border-bottom: 1px solid;   
+
+}
+
+
+.box1 {
+    display: flex;
+    background: gainsboro;
+    padding: 645px;
+    margin-left: -843px;
+    margin-top: -51px;
+    padding-bottom: 115px;
+
+}
+
+
+.caja {
+    display: flex;
+    height: 101px;
+    color: cadetblue;
+    list-style: none;
+    margin-left: -117px;
+    margin-top: -690px;
+    margin-right: -900px;
+    align-items: flex-end;
+    border-bottom: 1px solid;   
+}
+
+
+.caja1 {
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: -106px;
+    margin-top: 152px;
+    display: inline-grid;
+    font-size: x-small;
+    padding-top: 10px;
+
+}
+
+
+.foto1 {
+    width: 237px;
+    margin-left: -27px;
+    border-radius: 12px;
+}
+
+
+.trip1 {
+    color: aliceblue;
+    margin-top: -48px;
+    display: flex;
+    margin-left: -23px;
+}
+
+.price1 {
+    margin-left: 116px;
+    margin-top: -18px;
+    color: aliceblue;
+
+}
+
+.caja2 {
+    margin-left: 38px;
+    margin-top: 2px;
+    font-size: x-small;
+}
+
+.foto2 {
+    width: 215px;
+    margin-top: -22px;
+    border-radius: 12px;
+    margin-left: 18px;
+}
+
+.trip2 {
+    margin-top: -49px;
+    margin-left: 21px;
+    color: aliceblue;
+
+}
+
+.price2 {
+    margin-top: 16px;
+    margin-left: 137px;
+    color: aliceblue;
+}
+
+.prtorico {
+    margin-top: -424px;
+    padding: 59px;
+    border-radius: 3px;
+    margin-left: -52px;
+    padding-top: 16px;
+    font-size: small;
+    margin-bottom: -152px;
+    margin-right: -23px
+
+}
+
+.honduras {
+    color: aliceblue;
+    padding: 60px;
+    border-radius: 3px;
+    margin-left: -41px;
+    display: inline-grid;
+    margin-right: -303px;
+    margin-top: -602px;
+    padding-top: 153px;
+    padding-bottom: 15px;
+
+}
+
+.caja3 {
+    margin-left: 0px;
+    margin-bottom: -27px;
+    margin-top: 42px;
+}
+
+.foto3 {
+    width: 241px;
+    margin-top: -23px;
+    border-radius: 12px;
+}
+
+.trip3 {
+    margin-top: -49px;
+    display: inherit;
+    margin-left: 6px;
+    font-size: x-small;
+}
+
+.price3 {
+    font-size: unset;
+    margin-left: 137px;
+    margin-top: 13px;
+    color: aliceblue;
+}
+
+
+
+.caja4 {
+    background: aliceblue;
+    padding: 42px;
+    border-radius: 16px;
+    margin-left: -301px;
+    margin-top: -104px;
+    padding-bottom: 36px;
+    text-decoration: underline;
+    list-style: circle;
+    cursor: pointer;
+}
+
+.caja5 {
+    margin-top: 180px;
+    margin-left: -203px;
+}
+
+.chose {
+    margin-top: 146px;
+    margin-left: -456px;
+    margin-right: 563px;
+    border-bottom: 1px solid;
+    font-size: 14px;   
+}
+
+.destinations {
+    margin-left: -475px;
+    font-size: 15px;
+}
+
+
+.footer {
+    margin-top: 1167px;
+    padding: 360px;
+    background: midnightblue;
+    margin-left: -1318px;
+    margin-right: -59px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+
+.menu2 {
+    margin-left: 63px;
+    display: inline-flex;
+    padding-bottom: 22px;
+}
+
+.ch {
+    height: 35px;
+}
+
+.my {
+    height: 35px;
+}
+
+.sea {
+    height: 35px;
+}
+
+.dest {
+    height: 35px;
+}
+
+.follows {
+    margin-left: 645px;
+    color: aliceblue;
+    margin-top: -275px;
+    font-size: medium;
+}
+
+.insta {
+    width: 37px;
+    margin-left: 534px;
+    margin-top: 82px;
+    padding: 3px;
+    padding-bottom: 10px;
+}
+
+.face {
+    width: 37px;
+    margin-left: 616px;
+    margin-top: 82px;
+    padding: 4px;
+    margin-right: -530px;
+    padding-bottom: 10px;
+}
+
+.twiter {
+    width: 37px;
+    margin-top: 82px;
+    padding: 4px;
+    padding-bottom: 10px;
+}
+
+.foot1 {
+    margin-left: -1138px;
+    height: 153px;
+    margin-top: -548px;
+    color: aliceblue;
+    font-size: small
+}
+
+.about {
+    margin-left: 45px;
+    margin-top: 251px;
+    font-family: sans-serif;
+    font-size: xx-small;
+    cursor: pointer;
+}
+
+
+.a1 {
+    font-size: 18px;
+    color: brown;
+    font-family: sans-serif;
+}
+
+.we {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.to {
+    margin-top: -12px;
+    padding: 10px;
+    margin-left: -9px;
+    margin-bottom: 60px;
+    display: block;
+    font-size: 14px;
+}
+
+.explore {
+    display: grid;
+    margin-top: -119px;
+    font-family: sans-serif;
+    font-size: smaller;
+    margin-left: 381px;
+    cursor: pointer;
+}
+
+.ex {
+    font-size: 18px;
+    color: brown;
+    font-family: sans-serif;
+}
+
+.ho1 {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.destins {
+    font-family: sans-serif;
+    font-size: small;
+    margin-left: 0px;
+}
+
+.ab {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.info {
+    margin-left: 607px;
+    margin-top: -65px;
+    cursor: pointer;
+    display: grid;
+
+}
+
+.inf {
+    font-size: 18px;
+    color: brown;
+    font-family: sans-serif;
+}
+
+.ms {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.blog {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.test {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+
+.services {
+    margin-left: 897px;
+    margin-top: -65px;
+    cursor: pointer;
+    display: grid;
+}
+
+.mb {
+    font-size: 18px;
+    color: brown;
+    font-family: sans-serif;
+}
+
+.ckin {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.hom {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.car {
+    font-size: small;
+    font-family: sans-serif;
+}
